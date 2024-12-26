@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- STONE PAPER AND SCISSOR GAME -->
+    <main>
+
+        <h1 class="heading">ROCK PAPER SCISSOR <span>GAME</span> </h1>
+        <div class="container">
+            <div class="game">
+                <!-- CHOICES -->
+                <div class="choices">
+                    <div class="choice" id="rock">
+                        <img src="./images/rock.png" alt="rock image">
+                    </div>
+                    <div class="choice" id="paper">
+                        <img src="./images/paper.png" alt="paper image">
+                    </div>
+                    <div class="choice" id="scissor">
+                        <img src="./images/scissors.png" alt="scissor image">
+                    </div>   
+                </div>
+                <!-- SCORE DISPLAY  -->
+                <div class="score">
+                    
+                    <h1>Player Score : &nbsp;</h1>
+                    <h1 id="user_score"> 0</h1>
+                    <div class="line"></div>
+                    <h1>Computer Score : &nbsp;</h1>
+                    <h1 id="computer_score"> 0</h1>
+                </div>
+                <!-- RESULT DISPLAY -->
+                <div class="display_result">
+                    <button id="msg">WINNER IS </button>
+                    <button id="newGame">NEW GAME</button>
+                </div>
+            </div>    
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
